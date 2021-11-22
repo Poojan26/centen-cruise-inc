@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="@string/login"
+        android:onClick="login_button_click"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="686dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:text="@string/user_name"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/TVPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/password"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/TVsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_a_member"
+        android:layout_marginTop="500dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="521dp" />
+
+    <Button
+        android:id="@+id/buttonsignup"
+        android:layout_width="127dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="500dp"
+        android:layout_toEndOf="@+id/TVsignup"
+        android:text="@string/sign_up"
+        android:onClick="signup_button_click"/>
+
+    <EditText
+        android:id="@+id/ETUusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginTop="296dp"
+        android:layout_marginStart="10dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/ETPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ETUusername"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="270dp"
+        android:layout_height="267dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/add_a_little_bit_of_body_text" />
+
+</RelativeLayout>

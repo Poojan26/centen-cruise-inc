@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Centen Cruise Inc</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="user_name">User name:</string>
+    <string name="password">Password</string>
+    <string name="not_a_member">Not a member?</string>
+    <string name="name">Name</string>
+    <string name="welcome_to_centen_cruise">Welcome to Centen Cruise</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name:</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="phone">Phone</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="hello">Hello !</string>
+    <string name="test">TEST</string>
+    <string name="please_choose_a_cruise_from_top_right_corner_to_start_your_journey_with_us">Please choose a cruise from top right corner to start your journey with us</string>
+</resources>

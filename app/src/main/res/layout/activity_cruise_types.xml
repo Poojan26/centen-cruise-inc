@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CruiseTypes">
+
+
+    <TextView
+        android:id="@+id/texthello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginBottom="580dp"
+        android:text="@string/hello"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/TVuname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_toEndOf="@+id/texthello"
+        android:layout_marginStart="10dp"
+        android:textSize="20dp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/please_choose_a_cruise_from_top_right_corner_to_start_your_journey_with_us"
+        android:textSize="20dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/message"
+        />
+
+</RelativeLayout>
