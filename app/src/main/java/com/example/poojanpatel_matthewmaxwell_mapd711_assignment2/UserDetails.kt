@@ -1,9 +1,15 @@
 package com.example.poojanpatel_matthewmaxwell_mapd711_assignment2
-
+/*Name: Poojan Patel
+ID: 301228811
+Name: Matthew Maxwell
+ID: 301200258
+Course: MAPD-711
+Assignment: Assignment-4 */
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
@@ -32,7 +38,8 @@ class UserDetails : AppCompatActivity() {
         //initializing studentModel Object
         customerViewModel = ViewModelProvider(this).get(CustomerViewModel::class.java)
 
-
+        // Button reference
+        val btnlogin: Button = findViewById<Button>(R.id.blogin)
         // Fetching values from previous intent
         val fname = intent.getStringExtra("Fname")
         val lname = intent.getStringExtra("Lname")
@@ -72,7 +79,7 @@ class UserDetails : AppCompatActivity() {
     }
     //Function of back to login button
     fun back_login(view: android.view.View) {
-
+    //btnlogin.setOnClickListener{
         if (view.id == R.id.blogin) {
 
             // getting textview fields to add value
@@ -105,7 +112,7 @@ class UserDetails : AppCompatActivity() {
             val toast = Toast.makeText(applicationContext,"Sign up Successful", Toast.LENGTH_LONG)
             toast.show()
             startActivity(intent)
-        }
+        //}
     }
 }
-
+}

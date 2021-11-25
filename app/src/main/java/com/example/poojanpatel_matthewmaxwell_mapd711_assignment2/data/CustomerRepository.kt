@@ -5,7 +5,12 @@ import androidx.lifecycle.LiveData
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-
+/*Name: Poojan Patel
+ID: 301228811
+Name: Matthew Maxwell
+ID: 301200258
+Course: MAPD-711
+Assignment: Assignment-4 */
 class CustomerRepository {
 
     //defining database and live data object as companion objects

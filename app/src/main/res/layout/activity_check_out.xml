@@ -7,6 +7,13 @@
     tools:context=".CheckOut">
 
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv23"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
         android:id="@+id/mess"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

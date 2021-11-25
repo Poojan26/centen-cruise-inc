@@ -4,7 +4,7 @@ ID: 301228811
 Name: Matthew Maxwell
 ID: 301200258
 Course: MAPD-711
-Assignment: Assignment-2 */
+Assignment: Assignment-4 */
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView

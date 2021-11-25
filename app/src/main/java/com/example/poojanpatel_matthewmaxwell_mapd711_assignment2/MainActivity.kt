@@ -4,7 +4,7 @@ ID: 301228811
 Name: Matthew Maxwell
 ID: 301200258
 Course: MAPD-711
-Assignment: Assignment-2 */
+Assignment: Assignment-4 */
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+    context = this@MainActivity
     }
     //Function of login button
     fun login_button_click(view: android.view.View) {

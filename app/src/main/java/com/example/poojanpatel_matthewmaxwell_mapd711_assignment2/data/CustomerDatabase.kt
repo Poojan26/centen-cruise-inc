@@ -4,15 +4,19 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-
+/*Name: Poojan Patel
+ID: 301228811
+Name: Matthew Maxwell
+ID: 301200258
+Course: MAPD-711
+Assignment: Assignment-4 */
 @Database(
     entities = [
         CustomerModel::class,
         CruiseModel::class,
         //BookingModel::class,
 
-    ],version = 1, exportSchema = false
-)
+    ],version = 1, exportSchema = false)
 abstract class CustomerDatabase : RoomDatabase() {
     //instantiating Customer DAO object
     abstract fun customerDao() : CustomerDao
